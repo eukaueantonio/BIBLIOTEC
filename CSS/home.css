@@ -226,7 +226,7 @@ footer h4 {
 }
 
 .footer-flex article {
-    
+
     display: flex;
     /* text-align: center; */
     /* border: 2px solid black; */
@@ -303,3 +303,186 @@ footer hr {
     align-items: center;
 } */
 
+/* parte propria */
+/* .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #2B6CB0, #63B3ED);
+    padding: 50px;
+    color: white;
+    height: 400px;
+    position: relative;183dc, #42a2da);
+}
+
+.botao {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.definir {
+    width: 100%;
+    border: 3px solid black;
+    margin-right: 500px;
+}
+
+.definir h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+}
+
+.definir p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+} */
+/* parte propria */
+
+/* banner */
+
+#banner {
+    width: 100%;
+    height: 570px;
+    background: linear-gradient(to right, #3a70ff, #66b3ff);
+
+}
+
+.banner-flex {
+    display: flex;
+    /* border: 3px solid black; */
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+
+}
+
+.banner-info {
+    width: 450px;
+    height: 300px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+
+}
+
+#banner img {
+    /* width: 500px;
+    height: 100%; */
+    align-self: flex-end;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    /* padding-bottom: 20px; */
+}
+
+.banner-info p {
+    color: white;
+    font-size: 20px;
+    /* padding-bottom: 20px ; */
+}
+
+.banner-info button {
+    background-color: #25333d;
+    color: white;
+    font-size: 15px;
+    /*
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    */
+    padding: 10px 20px 10px 20px;
+    height: 50px;
+    align-items: flex-ends;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    text-transform: uppercase;
+
+}
+
+.section-flex h1 {
+    color: black;
+}
+
+.livros h1 {
+    color: black;
+}
+
+/********************* BANNER 2 *********************/
+
+#banner-2 {
+    width: 100%;
+    height: 505px;
+    background-color: #3691D8;
+}
+
+.banner-flex2 {
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid black; */
+    align-items: center;
+    height: 100%;
+    
+}
+
+.banner-info2 {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    /* border: 3px solid black; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+
+}
+
+#banner-2 img {
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    /* padding-bottom: 20px; */
+}
+
+.banner-info2 p {
+    color: white;
+    font-size: 20px;
+    /* padding-bottom: 20px ; */
+}
+
+.banner-info2 button {
+    background-color:#25333d;
+    color: white;
+    font-size: 15px;/*
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    */
+    padding: 10px 20px 10px 20px ;
+    height: 50px;
+    align-items: flex-end;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    text-transform: uppercase;
+
+}
