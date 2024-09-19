@@ -1,0 +1,6 @@
+.quadrado {
+    border: 3px solid black;
+    border-radius: 25px;
+    background: linear-gradient(to right, #3d7b3a, #2e6b2c, #1f5a1d, #0f4a0f, #003900);
+    color: ;
+}
