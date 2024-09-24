@@ -12,11 +12,12 @@
     <header>
         <div class="layout-grid header-flex">
             <img src="./imagens/logo-desktop.svg" alt="Logo da marca da BiblioTec">
-            <nav>
+            <nav id="menu"class="menu">
                 <a href="#">Quem somos</a>
                 <a href="#">Nosso acervo</a>
                 <a href="./login.html">Login</a>
             </nav>
+            <img src="./Imagens/menu-hamburger.png" alt="" onclick="mostrarMenu">
         </div>
     </header>
     <main>
@@ -158,6 +159,11 @@
         </div>
 
     </footer>
+    <script>
+        function mostrarMenu(){
+           document.getElementById("menu").classList.toggle("mostra-menu")
+        }
+    </script>
 </body>
 
 </html>

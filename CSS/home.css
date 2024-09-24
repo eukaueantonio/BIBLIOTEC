@@ -435,7 +435,7 @@ h1 {
     /* border: 3px solid black; */
     align-items: center;
     height: 100%;
-    
+
 }
 
 .banner-info2 {
@@ -471,20 +471,103 @@ h1 {
 }
 
 .banner-info2 button {
-    background-color:#25333d;
+    background-color: #25333d;
     color: white;
-    font-size: 15px;/*
+    font-size: 15px;
+    /*
     padding-left: 10px ;
     padding-right: 10px;
     padding-top:20px ;
     padding-bottom:20px ;
     */
-    padding: 10px 20px 10px 20px ;
+    padding: 10px 20px 10px 20px;
     height: 50px;
     align-items: flex-end;
     border: none;
     border-radius: 10px;
     width: 150px;
     text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 767px) {
+    /* header */
+
+    /* navbar */
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        /* camada */
+        z-index: 10;
+
+        width: 80%;
+        height: 100%;
+        background-color: red;
+    }
+
+    .mostra-menu {
+        left: 0;
+    }
+
+    .header-flex {
+        display: none;
+    }
+
+    /* header */
+    h1 {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .section-flex article {
+        margin-bottom: 100px;
+        height: 300px;
+    }
+
+    .section-flex h1 {
+        margin-bottom: 0px;
+    }
+
+    .bibliotec-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .banner2 {
+        display: none;
+    }
+
+    .banner-info2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 450px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    section#banner-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .capas-livros {
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
